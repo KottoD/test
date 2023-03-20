@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "tlEeEyzMHfs",
+	"hash": "E7Aj7UHTUWc",
 	"spine": "4.1.19",
 	"x": -159.55,
 	"y": -31.73,
@@ -48,6 +48,22 @@
 ],
 "animations": {
 	"idle": {
+		"slots": {
+			"cat": {
+				"rgba": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.111, 1, 0.222, 1, 0.111, 1, 0.222, 1, 0.111, 1, 0.222, 1, 0.111, 1, 0.222, 0 ]
+					},
+					{
+						"time": 0.3333,
+						"color": "ffffff00",
+						"curve": [ 0.444, 1, 0.556, 1, 0.444, 1, 0.556, 1, 0.444, 1, 0.556, 1, 0.444, 0, 0.556, 1 ]
+					},
+					{ "time": 0.6667, "color": "ffffffff" }
+				]
+			}
+		},
 		"bones": {
 			"cat3": {
 				"rotate": [
