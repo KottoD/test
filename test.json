@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "2eLiUJSskpY",
+	"hash": "mGBGCYTQovc",
 	"spine": "4.1.19",
 	"x": -202.33,
 	"y": -8.81,
@@ -17,8 +17,8 @@
 ],
 "slots": [
 	{ "name": "cat", "bone": "cat", "attachment": "cat" },
-	{ "name": "cat2", "bone": "cat2", "attachment": "cat", "blend": "additive" },
-	{ "name": "cat3", "bone": "cat3", "attachment": "cat", "blend": "multiply" }
+	{ "name": "cat2", "bone": "cat2", "attachment": "cat" },
+	{ "name": "cat3", "bone": "cat3", "attachment": "cat" }
 ],
 "skins": [
 	{
@@ -37,7 +37,7 @@
 	}
 ],
 "animations": {
-	"animation": {
+	"idle": {
 		"bones": {
 			"cat3": {
 				"rotate": [
