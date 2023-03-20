@@ -1,0 +1,6 @@
+test.png
+size:256,256
+filter:Linear,Linear
+pma:true
+cat
+bounds:2,2,155,155
