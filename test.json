@@ -1,24 +1,25 @@
 {
 "skeleton": {
-	"hash": "mGBGCYTQovc",
+	"hash": "Qs5NngbNY5Y",
 	"spine": "4.1.19",
-	"x": -202.33,
-	"y": -8.81,
-	"width": 394.51,
-	"height": 155,
+	"x": -159.55,
+	"y": -31.73,
+	"width": 308,
+	"height": 178.77,
 	"images": "",
 	"audio": ""
 },
 "bones": [
 	{ "name": "root" },
-	{ "name": "cat", "parent": "root", "length": 131.65, "rotation": 90.74, "x": -1.84, "y": 1.39 },
-	{ "name": "cat2", "parent": "root", "length": 128.25, "rotation": 90, "x": 110.27, "y": -1.16 },
+	{ "name": "cat", "parent": "root", "length": 131.65, "rotation": 90.74, "x": -0.14, "y": 2.24 },
+	{ "name": "cat2", "parent": "root", "length": 128.25, "rotation": 90, "x": 110.27, "y": -40.22 },
 	{ "name": "cat3", "parent": "root", "length": 126.55, "rotation": 90.38, "x": -127.53, "y": 2.24 }
 ],
 "slots": [
+	{ "name": "root", "bone": "root", "attachment": "root" },
 	{ "name": "cat", "bone": "cat", "attachment": "cat" },
-	{ "name": "cat2", "bone": "cat2", "attachment": "cat" },
-	{ "name": "cat3", "bone": "cat3", "attachment": "cat" }
+	{ "name": "cat2", "bone": "cat2", "attachment": "cat", "blend": "multiply" },
+	{ "name": "cat3", "bone": "cat3", "attachment": "cat", "blend": "additive" }
 ],
 "skins": [
 	{
@@ -32,6 +33,15 @@
 			},
 			"cat3": {
 				"cat": { "x": 66.43, "y": -3.14, "rotation": -90.38, "width": 155, "height": 155 }
+			},
+			"root": {
+				"root": {
+					"type": "clipping",
+					"end": "root",
+					"vertexCount": 4,
+					"vertices": [ 146.79, -31.73, 149.34, 181.45, -156.41, 167.86, -159.81, -23.24 ],
+					"color": "ce3a3aff"
+				}
 			}
 		}
 	}
