@@ -1,6 +1,6 @@
 {
 "skeleton": {
-	"hash": "fb1JU1byZaY",
+	"hash": "U76VWIhRsNY",
 	"spine": "4.1.19",
 	"x": -122.05,
 	"y": -90.91,
@@ -50,7 +50,7 @@
 	}
 ],
 "animations": {
-	"animation": {
+	"idle": {
 		"slots": {
 			"blk": {
 				"attachment": [
